@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Spotify-Clone</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="main">
+    <div class="lefttop-panel"> 
+      <div class="logo-name">
+        <img id="logo" src="img_spotify/logo.png">
+        <div id="logoname">Spotify_</div>
+      </div>
+      <div class="home">
+        <img class="logo1" src="img_spotify/homeicon.png">
+        <div class="logoname2">Home</div>
+      </div>
+      <div class="search">
+        <img class="logo1" src="img_spotify/searchicon.png">
+        <div class="logoname2">Search</div>
+      </div>
+      <div class="box1">
+        <img class="libicon" src="img_spotify/libraryicon.png">
+        <div class="left-title">
+          Your library
+          <i class="fa-solid plus-icon fa-plus"></i>
+        </div>
+      </div>
+    </div>
+    <div id="secondleft-panel">
+
+      <div class="box2">
+        <h3>Create your first playlist</h3>
+        <p>It's Easy, We'll help you</p>
+        <button class="btn1">Create Playlist</button>
+        <h3>Let's find some Podcasts to follow</h3>
+        <p>We'll keep you updated on new episodes</p>
+        <button class="btn1">Browse Podcasts</button>
+
+        <ul class="rights">
+          <li>Legal</li>
+          <li>Privacy Center</li>
+          <li>Privacy Policy</li>
+          <li>Cookies</li>
+          <li>About Ads</li>
+          <li>Accessibility</li>
+          <li>Choose Country</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="top-panel">
+    <div class="cover">
+      <img src="img_spotify/songcover.jpg" alt="No connection">
+      <div class="cover-name">
+        <h2>RapCaviar Album</h2>
+        <p> New Album from Doja Cat, Lil Wayne and Drake <br>Spotify • 11,657,932 likes •
+          51 songs, about 2 hr 45 min</br></p>
+        <img id="play-button" src="img_spotify/playbutton.png" alt="error loading"> 
+        <img id="pause-button" src="img_spotify/pauseIcon.png" alt="error loading">
+        <i class="fa-regular like-icon fa-heart"></i>
+        <i class="fa-solid more-icon fa-ellipsis"></i>
+        <input type="range" id="progressBar" min="0" max="100">
+      </div>
+      <div class="top-btn-panel">
+        <button class="button-top1">Sign up</button>
+        <button class="button-top2">Log in</button>
+      </div>
+    </div>
+    <div class="list-panel">
+      <ul class="song-table">
+        <li>#</li>
+        <li>Title</li>
+        <li>Album</li>
+        <li>Duration</li>
+      </ul>
+      <hr>
+      <ul class="song-lists">
+        <li>1 <a><img class="current-song" src="img_spotify/playing.gif" alt="error"></a> </li>
+        <li>Calm Down</li>
+        <li>Single Cover</li>
+        <li>Sep 7, 2022</li>
+      </ul>
+      <ul class="song-lists">
+        <li>2</li>
+        <li>Moti Verana Chokma</li>
+        <li>Navratri Cover</li>
+        <li>Aug 21, 2002</li>
+      </ul>
+      <ul class="song-lists">
+        <li>3</li>
+        <li>Chaleyaa</li>
+        <li>Jawaan</li>
+        <li>Feb 18, 2023</li>
+      </ul>
+      <ul class="song-lists">
+        <li>4</li>
+        <li>Teriyan Adavaan</li>
+        <li>AP Dhillon Cover</li>
+        <li>June 18, 2023</li>
+      </ul>
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

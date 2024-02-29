@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: 'Varela', sans-serif;
+  color: #fff;
+}
+
+.lefttop-panel {
+  /* border: 1px solid #fff; */
+  background: #9c9c9c11;
+  width: 330px;
+  height: 260px;
+  margin: 5px 10px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  position: sticky;
+}
+
+.lefttop-panel:hover {
+  background-color: #c4c4c411;
+}
+
+.logo-name {
+  display: flex;
+  cursor: pointer;
+}
+
+#logoname:hover {
+  font-weight: bolder;
+  color: #b8b8b8;
+}
+
+#logo {
+  height: 45px;
+  width: 40px;
+  padding-top: 10px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.logo1 {
+  height: 25px;
+  width: 25px;
+  filter: invert(70%);
+  margin: 10px 10px;
+}
+
+#logoname {
+  padding: 0.9rem 0.7rem;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.logoname2 {
+  color: #bababa;
+  margin: 12px 18px;
+}
+
+.home,
+.search {
+  display: flex;
+  justify-content: space-betweeen;
+  width: 2rem;
+}
+
+.logoname2:hover {
+  color: #dedede;
+  font-weight: bolder;
+}
+
+.box1 {
+  padding: 0.5rem 0rem 2rem 0.7rem;
+  display: flex;
+  /* border: 1px solid #fff; */
+  width: 330px;
+}
+
+.libicon {
+  width: 2rem;
+  height: 2rem;
+  filter: invert(60%);
+  cursor: pointer;
+}
+
+.left-title {
+  font-size: 16px;
+  color: #bababa;
+  padding: 3px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+}
+
+.left-title:hover {
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.plus-icon {
+  padding-left: 90px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.box2 {
+  /* border: 1px solid #fff; */
+  margin: 0px 10px;
+  padding: 1rem 2rem;
+  font-size: 14px;
+  height: 60vh;
+  width: 330px;
+  display: inline-block;
+  justify-content: space-between;
+  background-color: #9c9c9c11;
+  border-radius: 10px;
+}
+
+.box2:hover {
+  background-color: #c4c4c411;
+}
+
+.box2 h3 {
+  font-size: 15px;
+  color: #fdfcfc;
+  font-weight: bold;
+}
+
+.box2 p {
+  font-size: 14px;
+  padding: 15px 0px;
+  color: #d6d6d6;
+  font-weight: bolder;
+}
+
+.btn1 {
+  color: #1a1a1a;
+  background-color: #e6e6e6;
+  width: 130px;
+  height: 34px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-family: 'Varela', sans-serif;
+  font-weight: bolder;
+  margin: 10px 0px 20px;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  width: 132px;
+  height: 36px;
+  margin: 9px 0px 19px;
+  font-weight: bold;
+}
+
+.rights {
+  list-style: none;
+  display: flex;
+  padding: 20px 0px;
+  font-size: 10px;
+  justify-content: space-around;
+  text-align: start;
+  flex-wrap: wrap;
+}
+
+.rights li {
+  padding-top: 20px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.rights li:hover {
+  color: #d6d6d6;
+}
+
+.top-panel {
+  position: absolute;
+  display: flex;
+  right: 0px;
+  top: 2px;
+  width: 74rem;
+  height: 0vh;
+  padding: 0px 16px;
+  /* background-color: black; */
+  /* border: 1px solid white; */
+  /* justify-content: end;
+  text-align: end; */
+  /* background-image: url("img/songcover.jpg"); */
+  /* border-radius: 0px; */
+}
+
+.top-btn-panel {
+  display: flex;
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  /* border: 1px solid white; */
+  width: 72rem;
+  justify-content: end;
+  background-color: rgba(36, 36, 36, 0.501);
+}
+
+.button-top1 {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  margin: 15px 0px;
+  padding: 0px 20px;
+  font-size: 18px;
+  font-family: 'Varela', sans-serif;
+  background-color: transparent;
+  color: #bababa;
+  cursor: pointer;
+}
+
+.button-top1:hover {
+  color: #fff;
+  font-size: 19px;
+}
+
+.button-top2 {
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 0px 20px;
+  font-size: 18px;
+  font-family: 'Varela', sans-serif;
+  color: #303030;
+  cursor: pointer;
+}
+
+.button-top2:hover {
+  margin: 14px;
+  width: 122px;
+  height: 42px;
+  /* font-size: 19px; */
+  font-weight: bold;
+}
+
+.cover {
+  position: absolute;
+  display: block;
+  top: 0px;
+  user-select: none;
+}
+
+.cover img {
+  padding: 0px 8px 0px 0px;
+  width: 72.5rem;
+  height: 20rem;
+  display: float;
+  float: top;
+  opacity: 0.3;
+}
+
+#pause-button{
+  padding: 0px 8px 0px 0px;
+  width: 4.5rem;
+  height: 4.2rem;
+  display: flex;
+  left: 24px;
+  top: 20.8rem;
+  position: absolute;
+  opacity: 0;
+}
+
+#progressBar {
+  padding: 5px 8px 0px 0px;
+  width: 25rem;
+  height: 3rem;
+  display: flex;
+  position: absolute;
+  left: 15rem;
+  bottom: 0px;
+}
+
+.cover-name h2 {
+  display: flex;
+  position: absolute;
+  top: 8rem;
+  left: 25px;
+  font-size: 58px;
+  color: #fff;
+}
+
+.cover-name p {
+  display: flex;
+  position: absolute;
+  top: 14rem;
+  left: 28px;
+  color: #d6d6d6;
+}
+
+.cover-name img {
+  width: 80px;
+  height: 68px;
+  opacity: 1;
+  display: flex;
+  position: relative;
+  left: 20px;
+  top: 10px;
+  color: #bababa;
+  cursor: pointer;
+}
+
+.cover-name img:hover {
+  width: 82px;
+  height: 70px;
+}
+
+.like-icon:hover {
+  color: #f5e0e011;
+}
+
+.like-icon {
+  display: flex;
+  position: absolute;
+  top: 22rem;
+  left: 113px;
+  font-size: 35px;
+  filter: invert(30%);
+  cursor: pointer;
+  color: #f5f5f5;
+}
+
+.like-icon:hover {
+  color: #f5f5f511;
+}
+
+.more-icon {
+  display: flex;
+  position: absolute;
+  top: 22.2rem;
+  left: 180px;
+  font-size: 28px;
+  filter: invert(30%);
+  cursor: pointer;
+}
+
+.more-icon:hover {
+  color: #f5f5f511;
+}
+
+.list-panel {
+  width: 75.5rem;
+  height: 23rem;
+  /* border: 1px solid white; */
+  display: float;
+  float: top;
+  margin-top: 20rem;
+  background-image: linear-gradient(to bottom, #797672 1.5%, #9c9c9c11 50%);
+  font-size: 14px;
+}
+
+.song-table {
+  list-style: none;
+  display: flex;
+  padding: 95px 0px 5px 50px;
+  justify-content: space-between;
+  margin-right: 5rem;
+  color: #d6d6d6;
+}
+
+.list-panel hr {
+  margin: 10px 25px;
+  height: 1px;
+  border: 0;
+  background-color: #6b6b6b;
+}
+
+.song-lists {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 25px 0px 5px 50px;
+  justify-content: space-between;
+  margin-right: 5rem;
+  color: #ffffff;
+}
+
+.song-lists li {
+  text-align: center;
+  cursor: pointer;
+}
+
+.current-song {
+  width: 15px;
+  height: 12px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
